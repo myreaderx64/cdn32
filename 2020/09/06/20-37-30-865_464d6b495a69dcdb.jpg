@@ -1,0 +1,1370 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" /><script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+<script src="/bundles/js?v=TVXcCennOv3ZV8Btx16mJaiatwmvBnFic7mmTSxShvE1"></script>
+<script src="/bundles/angular?v=bZyjo8-8MICbCrUzJMLpV3_s_H3Q8o6lsJdj92HJJqs1"></script>
+<script src="/bundles/cookieLaw?v=FmlsoM3Z8ilrFuHWR9ozj4PdBgaKqzTWpr5txaM12bU1"></script>
+<link href="/bundles/css-empleo?v=uXjBlMc60Oe2DLCukgtRUYaKHceuCqkfkoBvOhl5o_A1" rel="stylesheet"/>
+
+	<title>Tu red de voluntariado y trabajo en ONG - Hacesfalta.org1</title>
+	
+    
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org'
+    .concat('/choice/', 'apv12_j3Z7d6w', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            event.source.postMessage(returnMsg, '*');
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<!--<script>
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T92J823');
+</script>	-->
+<script src="https://s3.eu-central-1.amazonaws.com/sc-devel/Skins/SMCService.js"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+</script>
+<script src="https://s3.eu-central-1.amazonaws.com/sc-devel/sc-tagmanager/hlp.js"></script>
+<script src="https://cdn.smartclip-services.com/v1/Storage-a482323/smartclip-services/HeaderBidding/js/SmartclipConfig.js" async="async"></script>
+
+<meta name="description" content="En hacesfalta.org puedes encontrar todas las ofertas de trabajo para ong en . " /><meta name="Keywords" content="ofertas trabajo ong , trabajo ong , empleo ong , trabajar ong " /><meta name="robots" content="all" /><title>
+	trabajo ong  - hacesfalta.org
+</title></head>
+<body>
+	<div id="preloader">
+ 		<div id="status"></div> 
+  	</div> 
+	
+    
+    
+	
+	
+
+	<div class="container banner-superior">
+	<div class="container-wrap">
+    <div id="hacesfalta_position" class="text-center">	
+	<div class="banner-superior">
+		<!-- HACESFALTA.ES#ES000082/empleoresto -->
+
+		<div id='sc-top' class="sc-top">
+			<script>
+				googletag.cmd.push(function() {
+					googletag.display('sc-top');
+				});
+			</script>
+		</div>
+		<!-- sc-oop-->
+		<div id='sc-oop' class="sc-oop">
+			<script>
+				googletag.cmd.push(function() {
+					googletag.display('sc-oop');
+				});
+			</script>
+		</div>
+	</div> 
+    </div></div></div>
+	
+    
+	
+        
+<!--CABECERA-->
+<div class="container" id="header">
+	<div class="container-wrap header-desktop">
+        <div class="row">
+            <div class="col-md-5 col-sm-6">
+                <h1>
+                <a href="/oportunidades/remuneradas/buscador/?sw=e" title="Voluntariado"><img src="/images/logo-hacesfalta.png" alt="hacesfalta.org - empleo" /></a>
+                <a href="https://transparenciaong.org/" target="_blank"><img src="/images/transparencia.png" class="header-transparencia" alt="100% transparencia" /></a>
+                </h1>
+            </div>
+            <div class="hidden-xs col-sm-5 col-md-7 text-right">
+                
+        <div class="hidden-xs pull-right">
+            
+           <a href="usuarios/login/#"  data-toggle="modal" data-target="#loginModal" data-urldestlogin="" class="btn btn-acceso">ACCESO / REGISTRO</a>
+        </div>
+        
+<div class="modal fade" id="loginModal" >
+    <div id="loginModalApp" class="modal-dialog">
+        <div data-ng-controller="formControllerLogin" class="modal-content text-left modal-login-form">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h1>Iniciar sesión</h1>
+            </div>
+            <div class="alert alert-info" data-ng-show="divLoading">
+                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Enviando datos...</button>
+            </div>
+
+            <div class="modal-body">
+                	<form name="modalLoginForm" class="" data-ng-show="formulario" novalidate>
+                        <div class="Content">
+                                <h2 class="h2-secondary">Acceso usuarios registrados</h2>
+                            <p>Si ya estás registrado/a indica tu mail y contraseña y pulsa el botón ‘entrar’.</p>
+                            <div class="Error" data-ng-show="divError">
+                                <strong>Corrija los siguientes errores</strong>:
+             
+                                <span data-ng-show="valMailnoEsMail">
+                                    <br />
+                                    La dirección de e-mail no es correcta
+                                 </span>
+                                <span data-ng-show="valNoLogin">
+                                    <br />
+                                    El Email/Contrase&#241;a que has introducido no coincide con ningún usuario
+                                </span>
+                                 <span data-ng-show="valNoDoc">
+                                    <br />
+                                    Introduce un NIF/NIE válido (números y letras) en el campo documento, por ejemplo: Y1223344C o 11223344C, y el país de origen del documento.
+                                </span>
+                            </div>
+                            <fieldset>
+                                <div class="form-group">
+                                    <label for="" class="LabelShort2">Email:</label>
+                                    <div class="input-group">
+                                    <div class="input-group-addon">@</div>
+                                    <input type="text" name="email" data-ng-model="email" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="LabelShort2">Contraseña:</label>
+                                    <input type="password" name="pass" data-ng-model="pass" class="form-control" required>
+                                </div>
+                                 <div class="form-group" data-ng-show="divDoc">
+                                    <label for="" class="LabelShort2">Documento:</label>
+                                    <div class="input-group">
+                                    <input type="text" name="documento" data-ng-model="documento" class="form-control" placeholder="DNI, NIE, etc." required>
+                                    </div>
+                                </div>
+                                <div class="form-group" data-ng-show="divDoc">
+                                    <label for="" class="LabelShort2">País del documento:</label>
+                                    <div class="input-group">
+                                      <select name="docIdPais" data-ng-model="docIdPais" class="form-control">
+                                          <option value=""> Selecciona</option>
+                                           <option data-ng-repeat="x in paises" value="{{x.Id}}">{{x.Nombre}}</option>
+                                      </select>
+                                    </div>
+                                </div>
+                                <p class="Clear">
+                                    <a href="/usuarios/login/recuerda/">¿Olvidaste tu contraseña?</a>
+                                </p>
+                            </fieldset>                        
+                            
+                            <div class="text-right">
+                                <button type="button" class="btn btn-primary" data-ng-click="iniciarSesion()">Entrar <span class="glyphicon glyphicon-chevron-right"></span></button>
+                            </div>
+                            <div class="text-right">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" data-ng-show="btnAlertCancelar" data-ng-click="inicializaUI()"><span class="glyphicon glyphicon-remove"></span>Cancelar</button>
+                            </div>
+                        </div>
+                        <!-- cierra Content -->
+                    </form>
+                    
+                    <h2 class="h2-secondary">Usuarios no registrados</h2>
+                    	<div class="panel panel-default caja-registro">
+                    	<div class="panel-body">
+									
+                                	<p>
+                                    Si no estás registrado/a, dinos <strong>¿quién eres?</strong>:
+                                  </p>
+                                  
+                                    <a href="/usuarios/registro/?Clave=&idCategoria=&idPais=&idProvincia=51%2ffavicon.ico" class="btn btn-primary btn-lg btn-block">PARTICULAR</a>
+                                    <a href="/ong/registro/" class="btn btn-primary btn-lg btn-block btn-ong">ONG / EMPRESA</a>
+                        </div>
+                        </div>
+               
+                
+                    
+                
+
+                <div class="Clear">&nbsp;</div>
+
+
+
+            </div>
+
+            <script>
+                var urlDestinoLogin;
+                $(document).ready(function () {
+                    urlDestinoLogin = "";
+                    $('#loginModal').on('show.bs.modal', function (e) {
+                        if ($(e.relatedTarget).data('urldestlogin') != null) {
+                            urlDestinoLogin = $(e.relatedTarget).data('urldestlogin');
+                        }
+
+
+                    });
+                   
+              
+
+                var loginModalApp1 = angular.module('loginModalApp1', []);
+
+                loginModalApp1.controller('formControllerLogin', function ($scope, $http, $window) {
+
+                    $scope.inicializaUI = function () {
+                        $scope.divLoading = false;
+                        $scope.divError = false;
+                        $scope.valMailnoEsMail = false;
+                        $scope.valNoDoc = false;
+                        $scope.divDoc = false;
+                      
+                    }
+                    $scope.resetForm = function () {
+                        $scope.email = '';
+                        $scope.pass = '';
+                        $scope.documento = '';
+                    }
+                    $scope.startLoading = function () {
+                        $scope.formulario = false;
+                        $scope.enlacesReg = false;
+                        $scope.divLoading = true;
+                    }
+                    $scope.stopLoading = function () {
+                        $scope.formulario = true;
+                        $scope.enlacesReg = true;
+                        $scope.divLoading = false;
+                    }
+                    $scope.iniciarSesion = function () {
+                        $scope.inicializaUI();
+                        $scope.startLoading();
+                        var query = window.location.href.slice(window.location.href.indexOf('?') + 1);
+                        var data = {
+                            "model": {
+                                "email": modalLoginForm.email.value, "pass": modalLoginForm.pass.value, "urlDestino": urlDestinoLogin, "documento": modalLoginForm.documento.value
+                        ,"documentoIdPais": modalLoginForm.docIdPais.value    }
+                        };
+                        $http.post("/usuarios/login/default.aspx/Entrar", JSON.stringify(data),
+                                           { headers: { 'Content-Type': 'application/json' } }
+                                ).success(function (response) {
+                                    var model = JSON.parse(response.d);
+                                    $scope.divLoading = false;
+                                    if (!model.IsValidEmail) {
+                                        $scope.divError = true;
+                                        $scope.valMailnoEsMail = true;
+                                        $scope.stopLoading();
+                                    } else if (!model.IsValidLogin) {
+                                        $scope.divError = true;
+                                        $scope.valNoLogin = true;
+                                        $scope.stopLoading();
+                                    } else if (!model.IsValidDoc) {
+                                         $scope.divError = true;
+                                        $scope.divDoc = true;
+                                        $scope.valNoDoc = true;
+                                        $scope.paises = model.Paises;
+                                        $scope.documento = model.Documento;
+                                        $scope.stopLoading();
+                                    } else {
+                                       // $('#loginModal').modal('toggle');
+                                        if (model.UrlDestino != null && model.UrlDestino != "") {
+                                            $window.location.href = model.UrlDestino;
+                                        }
+                                        else {
+                                            $window.location.reload();
+                                        }
+                                        setTimeout(function () { $('#loginModal').modal('hide') },30000);
+                                    }
+                                })
+                                .error(function (data, status, headers, config) {
+                                    $scope.stopLoading();
+                                    alert("Ocurrió un error. Inténtalo de nuevo.");
+                                }
+                               );
+                    };
+
+                
+
+                    $scope.inicializaUI();
+                    $scope.resetForm();
+                    $scope.formulario = true;
+                    $scope.enlacesReg = true;
+
+                }
+               );//appcller 
+                angular.bootstrap($('#loginModalApp'), ['loginModalApp1']);
+                });
+            </script>
+          
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+ 
+     
+
+                <div class="header-links">
+                    <a href="/oportunidades/?sw=v" class="header-link-voluntariado">VOLUNTARIADO</a>
+                    <a href="/oportunidades/remuneradas/buscador/?sw=e" class="header-link-empleo active">EMPLEO</a>
+                    <a href="/donaciones/proyectos/?sw=v" class="header-link-donaciones">DONACIONES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-wrap header-mobile visible-xs-block">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<h1><a href="/oportunidades/remuneradas/buscador/?sw=e" title="Voluntariado"><img src="/images/logo-hacesfalta.png" alt="hacesfalta.org - empleo" /></a></h1>
+            </div>
+            <div class="col-xs-6">
+            	<!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <span class="navbar-brand">EMPLEO</span>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="/usuarios/login/default.aspx">ACCESO</a></li>
+                    <li><a href="/noticias/">BLOG</a></li>
+                    <li><a href="/oportunidades/?sw=v" class="header-link-voluntariado">VOLUNTARIADO</a></li>
+                    <li><a href="/oportunidades/remuneradas/buscador/?sw=e" class="header-link-empleo">EMPLEO</a></li>
+                    <li><a href="/donaciones/proyectos/?sw=v" class="header-link-donaciones">DONACIONES</a></li>
+                    <li><a href="/oportunidades/iniciativas/buscador/?sw=v" class="header-link-iniciativas">#TodoSaldraBien</a></li>
+                    <li><a href="/preguntas-frecuentes.ct">AYUDA</a></li>
+                    
+                  </ul>
+                  
+                  
+                </div><!-- /.navbar-collapse -->
+    
+    
+    
+    
+            </div>
+        </div>
+    </div>
+</div>
+<!--FIN CABECERA-->
+
+
+    
+	
+        
+
+
+<!--Buscador Rem-->
+<div class="buscador-principal container-fluid" id="buscador">
+    <div class="container-wrap">
+
+            <form class="row" role="form" action="">
+            <div class="form-group col-sm-4">
+                <label id="cphBuscador_buscador_Label1" class="sr-only" for="Clave">
+                    BUSCAR POR PALABRAS...</label>
+                <input type="text"  id="bsClave" name="bsClave" class="form-control input-lg" placeholder="BUSCAR POR PALABRAS..." />
+                <button class="search-mobile visible-xs"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+            <a class="boton-collapse visible-xs-block" role="button" data-toggle="collapse" href="#buscador-collapse" aria-expanded="false" aria-controls="buscador-collapse">+</a>
+            <div class="" id="buscador-collapse">
+                <div class="form-group col-sm-2">
+                    <label class="sr-only"  for="idCategoria">
+                        TE INTERESA...</label>
+                    <select class="form-control input-lg" id="bsCategoria" name ="bsCategoria"  >
+                        <option value="" >TE INTERESA...</option>
+                        
+                         <option value="4008" >Administración y Finanzas</option>    
+                        
+                         <option value="4002" >Atención Directa</option>    
+                        
+                         <option value="4013" >Becas / Prácticas</option>    
+                        
+                         <option value="4004" >Comunicación y Marketing</option>    
+                        
+                         <option value="4014" >Cooperación /Emergencia/ Ayuda humanitaria</option>    
+                        
+                         <option value="4001" >Dirección y Coordinación</option>    
+                        
+                         <option value="-6" >Executive</option>    
+                        
+                         <option value="4007" >Fundraising</option>    
+                        
+                         <option value="4003" >Gestión de Proyectos</option>    
+                        
+                         <option value="4005" >Informática y Tecnología</option>    
+                        
+                         <option value="4010" >Legal jurídico</option>    
+                        
+                         <option value="4012" >Personal de servicio</option>    
+                        
+                         <option value="4011" >RRHH/Gestión de personas</option>    
+                        
+                         <option value="4009" >Sensibilización</option>    
+                        
+                    </select>
+                </div>
+                <div class="form-group col-sm-2">
+                    <label class="sr-only" for="idPais">
+                        PA&Iacute;S...</label>
+                    <select class="form-control input-lg" id="bsPais" name="bsPais"   >
+                        <option value="" >PA&Iacute;S...</option>
+                        
+                         <option value="8" >Argélia   </option>    
+                        
+                         <option value="60" >España    </option>    
+                        
+                         <option value="124" >Mali      </option>    
+                        
+                         <option value="170" >Senegal   </option>    
+                        
+                         <option value="173" >Siria     </option>    
+                        
+                         <option value="199" >Venezuela </option>    
+                        
+                    </select>
+                </div>
+                <div class="form-group col-sm-2">
+                    <label class="sr-only" for="idProvincia">
+                        PROVINCIA...</label>
+                    <select class="form-control input-lg" id="bsProvincia" name="bsProvincia"  >
+                        <option value="" >PROVINCIA...</option>
+                        
+                         <option value="9" >A Coruña</option>    
+                        
+                         <option value="2" >Albacete</option>    
+                        
+                         <option value="1" >Alicante</option>    
+                        
+                         <option value="3" >Almeria</option>    
+                        
+                         <option value="0" >Ámbito nacional</option>    
+                        
+                         <option value="50" >Araba/Álava</option>    
+                        
+                         <option value="33" >Asturias</option>    
+                        
+                         <option value="6" >Badajoz</option>    
+                        
+                         <option value="36" >Baleares</option>    
+                        
+                         <option value="5" >Barcelona</option>    
+                        
+                         <option value="7" >Bizkaia</option>    
+                        
+                         <option value="11" >Cáceres</option>    
+                        
+                         <option value="10" >Cádiz</option>    
+                        
+                         <option value="15" >Castellón</option>    
+                        
+                         <option value="12" >Ceuta</option>    
+                        
+                         <option value="14" >Ciudad Real</option>    
+                        
+                         <option value="16" >Cuenca</option>    
+                        
+                         <option value="18" >Girona</option>    
+                        
+                         <option value="20" >Guadalajara</option>    
+                        
+                         <option value="21" >Huelva</option>    
+                        
+                         <option value="17" >Las Palmas</option>    
+                        
+                         <option value="25" >León</option>    
+                        
+                         <option value="24" >Lleida</option>    
+                        
+                         <option value="27" >Lugo</option>    
+                        
+                         <option value="28" >Madrid</option>    
+                        
+                         <option value="29" >Málaga</option>    
+                        
+                         <option value="30" >Melilla</option>    
+                        
+                         <option value="31" >Murcia</option>    
+                        
+                         <option value="37" >Pontevedra</option>    
+                        
+                         <option value="39" >Salamanca</option>    
+                        
+                         <option value="40" >Sevilla</option>    
+                        
+                         <option value="44" >Tarragona</option>    
+                        
+                         <option value="47" >Toledo</option>    
+                        
+                         <option value="48" >Valencia</option>    
+                        
+                         <option value="49" >Valladolid</option>    
+                        
+                         <option value="51" >Zaragoza</option>    
+                        
+                    </select>
+                </div>
+                <div class="col-sm-2 text-right hidden-xs">
+                    <button type="submit" class="btn btn-default btn-lg">
+                        BUSCAR</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+    
+<!--fin buscador-->
+
+    
+    
+    
+<div class="text-center banner-superior hidden-xs">
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9794946242417047";
+        /* Resultado busqueda remunerado */
+        google_ad_slot = "1047824956";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+</script>
+<script type="text/javascript"
+    src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+    <!--fin fundacion -->
+    <!--RESULTADO BUSQUEDA-->
+    <div class="container" data-ng-app="">
+        <div class="row container-wrap">
+           
+             <h1>
+               <div class="pull-right">
+        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#formAlertaModal"><span class="glyphicon glyphicon-bell"></span>Crear alerta</a>
+     </div> Oportunidades de trabajo en ONG </h1>
+           
+
+            
+    <div id="cphContenido_FormAlerta_divBtn">
+
+</div>
+<div class="modal fade" id="formAlertaModal" data-ng-controller="formController">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Alertas hacesfalta.org</h4>
+            </div>
+            <div class="modal-body">
+                <p class="lead"><span class="glyphicon glyphicon-bell"></span>
+                    Recibe alertas de ofertas de empleo</p>
+                
+                <div class="alert alert-danger" data-ng-show="divErrorAlerta">
+                    <strong>Corrija los siguientes errores</strong>:
+                               
+                                <span id="mailVacioErr" data-ng-show="valMailVacio">
+                                    <br />
+                                    El campo e-mail es obligatorio
+                                </span>
+                    <span data-ng-show="valMailnoEsMail">
+                        <br />
+                        La dirección de e-mail no es correcta
+                    </span>
+                    <span data-ng-show="valMailNoCoincide">
+                        <br />
+                        El campo e-mail y repetir e-mail no coinciden
+                    </span>
+                    <span data-ng-show="valPoliticaNoAceptada">
+                        <br />
+                        Debes aceptar la politica de tratamiento de datos
+                    </span>
+                </div>
+                <div class="alert alert-success" data-ng-show="divOkAlerta">
+                    <strong><span data-ng-show="msgCreada">Tu alerta ha sido guardada
+                    </span></strong>
+                </div>
+                <div class="alert alert-info" data-ng-show="divLoading">
+                    <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Enviando datos...</button>
+                </div>
+                <form action="default.aspx" id="formAlerta" method="post" data-ng-show="formAlertaShow">
+                    <input type="hidden" name="descripcion" id="descripcion" data-ng-controller="descripcionController" value="{{descripcion}}" />
+                    <div class="form-group">
+                        <label for="" class="control-label">Email para avisarte:</label>
+                        <input type="text" class="form-control" name="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="control-label">Confirma tu email:</label>
+                        <input type="text" class="form-control" name="email2" id="email2" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="checkbox" id="chkPol" />
+                        Acepto las <a href="/Contenido/default.aspx?idPagina=369">condiciones de uso</a> y la <a href="/Contenido/?idPagina=85">política de privacidad</a>.                          
+                    </div>
+                    <div class="form-group responsable-txt">
+                                <p><strong>INFORMACIÓN BÁSICA SOBRE PROTECCIÓN DE DATOS:</strong></p>
+                                <p><strong>Responsable</strong>: Fundación Hazloposible
+                                <br/>
+                                <strong>Finalidad</strong>: Gestión y remisión de alertas con ofertas publicadas en Hacesfalta.org
+                                <br/>
+                                <strong>Legitimación</strong>: Consentimiento del interesado
+                                <br/>
+                                <strong>Destinatarios</strong>: Los datos facilitados para la suscripción al servicio de alertas de Hacesfalta.org no serán comunicados a terceros
+                                <br/>
+                                <strong>Derechos</strong>: Acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de los datos
+                                <br/>
+                                <a href="/Contenido/?idPagina=85">Información adicional</a>
+                                </p>
+                            </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" data-ng-show="btnAlertCancelar" data-ng-click="inicializaModalAlerta()"><span class="glyphicon glyphicon-remove"></span>Cancelar</button>
+                <button type="button" class="btn btn-primary" data-ng-click="guardar()" data-ng-show="btnAlertGuardar"><span class="glyphicon glyphicon-bell"></span>Recibir alerta</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" data-ng-show="btnAlertCerrar" data-ng-click="inicializaModalAlerta()"><span class="glyphicon glyphicon-bell"></span>Cerrar</button>
+            </div>
+
+            <script>
+                var IdTipoOportunidadVoluntariado = 2;
+                function formController($scope, $http) {
+                    $scope.inicializaModalAlerta = function () {
+                        $scope.divOkAlerta = false;
+                        $scope.divErrorAlerta = false;
+                        $scope.divLoading = false;
+                        $scope.formAlertaShow = true;
+                        $scope.btnAlertCancelar = true;
+                        $scope.btnAlertGuardar = true;
+                        $scope.btnAlertCerrar = false;
+                        $scope.valMailVacio = false;
+                        $scope.valMailnoEsMail = false;
+                        $scope.valMailNoCoincide = false;
+                        $scope.valPoliticaNoAceptada = false;
+                        $scope.msgCreada = false;
+                        formAlerta.email.value = "";
+                        formAlerta.email2.value = "";
+                        formAlerta.chkPol.checked = false;
+                    };
+                    $scope.guardar = function () {
+
+                        $scope.formAlertaShow = false;
+                        $scope.divLoading = true;
+
+                        var query = window.location.href.slice(window.location.href.indexOf('?') + 1);
+                        var data = { "model": { "Email": formAlerta.email.value, "Email2": formAlerta.email2.value, "PoliticaAceptada": formAlerta.chkPol.checked, "Parametros": query, "Descripcion": formAlerta.descripcion.value,"IdTipoOportunidadVoluntariado": IdTipoOportunidadVoluntariado} };
+                        $http.post("/oportunidades/buscador/default.aspx/Crear", JSON.stringify(data),
+                                           { headers: { 'Content-Type': 'application/json' } }
+                                )
+                                .success(function (response) {
+                                    $scope.divLoading = false;
+                                    var model = JSON.parse(response.d);
+
+                                    $scope.valMailVacio = model.MailVacio;
+                                    $scope.valMailnoEsMail = model.MailNoEsMail;
+                                    $scope.valMailNoCoincide = model.MailNoCoincide;
+                                    $scope.valPoliticaNoAceptada = model.PoliticaNoAceptada;
+                                    $scope.msgCreada = model.Creada;
+                                    $scope.btnAlertCancelar = !model.Creada;
+                                    $scope.btnAlertGuardar = !model.Creada;
+                                    $scope.btnAlertCerrar = model.Creada;
+                                    if (model.Creada) {
+                                        $scope.divOkAlerta = true;
+                                        $scope.divErrorAlerta = false;
+                                        $scope.formAlertaShow = false;
+                                    }
+                                    else {
+                                        $scope.divOkAlerta = false;
+                                        $scope.divErrorAlerta = true;
+                                        $scope.formAlertaShow = true;
+                                    }
+                                })
+                                .error(function (data, status, headers, config) {
+                                    $scope.formAlertaShow = true;
+                                    $scope.divLoading = false;
+                                    alert("Ocurrió un error. Inténtalo de nuevo.");
+                                }
+                               );
+                    };
+
+                    $scope.inicializaModalAlerta();
+                }
+                function descripcionController($scope) {
+                    if (filtroData) {
+                        $scope.descripcion = filtroData.Descripcion;
+                    }
+                }
+            </script>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+            <hr />
+
+            <div class="col-sm-3 buscador-lateral" >
+                <form action="/oportunidades/remuneradas/buscador/listado/default.aspx" id="formFiltro" method="get">
+                    <input type="hidden" name="hClave" id="hClave" data-ng-controller="claveController" value="{{clave}}" />
+                    <input type="hidden" name="hCategoria" id="hCategoria" data-ng-controller="categoriaController" value="{{categoria}}" />
+                    <input type="hidden" name="hPais" id="hPais" data-ng-controller="paisController" value="{{pais}}" />
+                    <input type="hidden" name="hProvincia" id="hProvincia" data-ng-controller="provinciaController" value="{{provincia}}" />
+                     
+                    <h2>Opciones de filtrado</h2>
+                    <div data-ng-controller="nivelController" class="form-group"  data-ng-show="niveles.length>0">
+                        <label for="fIdNivel" class="">
+                            Nivel</label>
+                        <div class="checkbox" data-ng-repeat="x in niveles">
+                            <label>
+                                <input type="checkbox" name="fIdnivel" value="{{x.Valor }}" data-ng-click="itemCheck(x)" data-ng-checked="x.Seleccionado" />{{ x.Nombre + ' (' +  x.Total +')'}}                                                                                             
+                            </label>
+                        </div>
+                        <hr />
+                    </div>
+                    <div data-ng-controller="tipoContratoController" class="form-group"  data-ng-show="tiposcontrato.length>0">
+                        <label for="fIdTipoContrato" class="">
+                            Tipo de Contrato</label>
+                        <div class="checkbox" data-ng-repeat="x in tiposcontrato">
+                            <label>
+                                <input type="checkbox" name="fIdTipoContrato" value="{{x.Valor }}" data-ng-click="itemCheck(x)" data-ng-checked="x.Seleccionado" />{{ x.Nombre + ' (' +  x.Total +')'}}                                                                                             
+                            </label>
+                        </div>
+                        <hr />
+                    </div>
+                    <div data-ng-controller="duracionController" class="form-group"  data-ng-show="duraciones.length>0">
+                        <label for="fIdDuracion" class="">
+                            Duración</label>
+                        <div class="checkbox" data-ng-repeat="x in duraciones">
+                            <label>
+                                <input type="checkbox" name="fIdDuracion" value="{{x.Valor }}" data-ng-click="itemCheck(x)" data-ng-checked="x.Seleccionado" />{{ x.Nombre + ' (' +  x.Total +')'}}                                                                                             
+                            </label>
+                        </div>
+                        <a href="" data-ng-show="verDuracionMas" data-ng-click="toggleDuracion()">[mostrar más]</a>
+                        <a href="" data-ng-show="verDuracionMenos" data-ng-click="toggleDuracion()">[mostrar menos]</a>
+                        <hr />
+                    </div>
+                    <div data-ng-controller="salarioController" class="form-group"  data-ng-show="salarios.length>0">
+                        <label for="fIdSalario" class="">
+                            Salario</label>
+                        <div class="checkbox" data-ng-repeat="x in salarios">
+                            <label>
+                                <input type="checkbox" name="fIdSalario" value="{{x.Valor }}" data-ng-click="itemCheck(x)" data-ng-checked="x.Seleccionado" />{{ x.Nombre + ' (' +  x.Total +')'}}                                                                                             
+                            </label>
+                        </div>
+                        <a href="" data-ng-show="verSalarioMas" data-ng-click="toggleSalario()">[mostrar más]</a>
+                        <a href="" data-ng-show="verSalarionMenos" data-ng-click="toggleSalario()">[mostrar menos]</a>
+                        <hr />
+                    </div>
+                    <div data-ng-controller="profesionController" class="form-group"  data-ng-show="profesiones.length>0">
+                        <label for="fIdProfesion" class="">
+                            Profesiones</label>
+                        <div class="checkbox" data-ng-repeat="x in profesiones">
+                            <label>
+                                <input type="checkbox" name="fIdProfesion" value="{{x.Valor }}" data-ng-click="itemCheck(x)" data-ng-checked="x.Seleccionado" />{{ x.Nombre + ' (' +  x.Total +')'}}                                                                                             
+                            </label>
+                        </div>
+                        <a href="" data-ng-show="verProfesionMas" data-ng-click="toggleProfesion()">[mostrar más]</a>
+                        <a href="" data-ng-show="verProfesionMenos" data-ng-click="toggleProfesion()">[mostrar menos]</a>
+                        <hr />
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col-sm-9 resultado-busqueda">
+                <div class="resultado-filtro form-horizontal">
+                   
+Ordenar por:
+<select class="form-control input-sm" id="ddOderby">
+    <option id="cphContenido_BuscadorOrdenLista_ordenFp" value="/oportunidades/remuneradas/buscador/listado/Default.aspx?pageIndex=1&amp;volver=&amp;idProvincia=51/favicon.ico&amp;&amp;forden=fechapubli&amp;fordendir=desc" selected="">Fecha de publicación</option>
+    
+    
+    <option id="cphContenido_BuscadorOrdenLista_ordenIR" value="/oportunidades/remuneradas/buscador/listado/Default.aspx?pageIndex=1&amp;volver=&amp;idProvincia=51/favicon.ico&amp;&amp;forden=indicerespuesta&amp;fordendir=desc">Indice de respuesta</option>
+</select>
+<a href="/oportunidades/remuneradas/buscador/listado/Default.aspx?pageIndex=1&volver=&idProvincia=51/favicon.ico&&forden=fechapubli&fordendir=asc" id="cphContenido_BuscadorOrdenLista_hlOrdenDir" alt="cambiar ordenación" title="Ordenar por Fecha de publicación ascendente"><span class="glyphicon glyphicon-sort"></span></a>
+<script>
+    $(function () {
+        $('#ddOderby').on('change', function () {
+            var url = $(this).val();
+            if (url) {
+                window.location = url;
+            }
+            return false;
+        });
+    });
+</script>
+
+	
+                </div>
+                <p class="lead">Número de oportunidades: 0</p>
+                <!--listado destacadas-->
+                
+                <!--final listado datacadas-->
+                <!--listado resultado-->
+                
+
+                <!--final listado-->
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--FIN RESULTADO BUSQUEDA-->
+    <div class="container">
+    <div class="container-wrap">
+    <hr/>
+    
+	<div class="row">
+        <div class="col-sm-8">
+        
+        <div class="hidden-xs">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!--relacionadas-->
+                    <!--CATEGORIAS-->
+                    <div id="cphContenido_capacategoriaseo" class="ContentPanelBottom">
+                        <div class="Box2">
+
+                            <div class="Titulo1Sub">
+                                <h2 class="h2-secondary">OFERTAS DE TRABAJO EN ONG POR CATEGORÍA
+                    </h2>
+                            </div>
+                            <div class="Content" style="min-height: 120px;">
+                                <!-- PESTAÑAS VOLUNTARIADO -->
+                                
+<div id="tabsvol" class="Tabs">
+    <div id="vol1"> <span style=" color:#515151">|</span>
+        
+                <a href="../../../../trabajo-ong-administracion-y-finanzas.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_0" class="Categ1" title="trabajo ong Administración y Finanzas">trabajo ong Administración y Finanzas</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-atencion-directa.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_1" class="Categ1" title="trabajo ong Atención Directa">trabajo ong Atención Directa</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-becas---practicas.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_2" class="Categ1" title="trabajo ong Becas / Prácticas">trabajo ong Becas / Prácticas</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-comunicacion-y-marketing.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_3" class="Categ1" title="trabajo ong Comunicación y Marketing">trabajo ong Comunicación y Marketing</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-cooperacion--emergencia--ayuda-humanitaria.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_4" class="Categ1" title="trabajo ong Cooperación /Emergencia/ Ayuda humanitaria">trabajo ong Cooperación /Emergencia/ Ayuda humanitaria</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-direccion-y-coordinacion.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_5" class="Categ1" title="trabajo ong Dirección y Coordinación">trabajo ong Dirección y Coordinación</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-fundraising.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_6" class="Categ1" title="trabajo ong Fundraising">trabajo ong Fundraising</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-gestion-de-proyectos.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_7" class="Categ1" title="trabajo ong Gestión de Proyectos">trabajo ong Gestión de Proyectos</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-informatica-y-tecnologia.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_8" class="Categ1" title="trabajo ong Informática y Tecnología">trabajo ong Informática y Tecnología</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-legal-juridico.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_9" class="Categ1" title="trabajo ong Legal jurídico">trabajo ong Legal jurídico</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-personal-de-servicio.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_10" class="Categ1" title="trabajo ong Personal de servicio">trabajo ong Personal de servicio</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-rrhh-gestion-de-personas.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_11" class="Categ1" title="trabajo ong RRHH/Gestión de personas">trabajo ong RRHH/Gestión de personas</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-sensibilizacion.aspx" id="cphContenido_CajaFolksonomiaRemu1_rptLista_hlCat_12" class="Categ1" title="trabajo ong Sensibilización">trabajo ong Sensibilización</a> <span style=" color:#515151">|</span>
+            
+    </div>
+</div>
+
+                                <!-- FIN PESTAÑAS VOLUNTARIADO -->
+
+                            </div>
+                            <div class="Box2Foot">
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIN CATEFGORIAS-->
+                    <!--provincias-->
+                    <div id="cphContenido_capaprovinciaseo" class="ContentPanelBottom">
+                        <div class="Box2">
+
+                            <div class="Titulo1Sub">
+                                <h2 class="h2-secondary">OFERTAS DE TRABAJO EN ONG POR PROVINCIA
+                    </h2>
+                            </div>
+                            <div class="Content" style="min-height: 120px;">
+                                <!-- PESTAÑAS VOLUNTARIADO -->
+                                
+<div id="tabsvol" class="Tabs">
+    <div id="vol1"> <span style=" color:#515151">|</span>
+        
+                <a href="../../../../trabajo-ong-a-coruna.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_0" class="Categ1" title="trabajo ong A Coruña">trabajo ong A Coruña</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-albacete.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_1" class="Categ1" title="trabajo ong Albacete">trabajo ong Albacete</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-alicante.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_2" class="Categ1" title="trabajo ong Alicante">trabajo ong Alicante</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-almeria.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_3" class="Categ1" title="trabajo ong Almeria">trabajo ong Almeria</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-araba-%C3%A1lava.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_4" class="Categ1" title="trabajo ong Araba/Álava">trabajo ong Araba/Álava</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-asturias.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_5" class="Categ1" title="trabajo ong Asturias">trabajo ong Asturias</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-badajoz.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_6" class="Categ1" title="trabajo ong Badajoz">trabajo ong Badajoz</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-baleares.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_7" class="Categ1" title="trabajo ong Baleares">trabajo ong Baleares</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-barcelona.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_8" class="Categ1" title="trabajo ong Barcelona">trabajo ong Barcelona</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-bizkaia.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_9" class="Categ1" title="trabajo ong Bizkaia">trabajo ong Bizkaia</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-caceres.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_10" class="Categ1" title="trabajo ong Cáceres">trabajo ong Cáceres</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-cadiz.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_11" class="Categ1" title="trabajo ong Cádiz">trabajo ong Cádiz</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-castellon.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_12" class="Categ1" title="trabajo ong Castellón">trabajo ong Castellón</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-ceuta.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_13" class="Categ1" title="trabajo ong Ceuta">trabajo ong Ceuta</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-ciudad-real.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_14" class="Categ1" title="trabajo ong Ciudad Real">trabajo ong Ciudad Real</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-cuenca.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_15" class="Categ1" title="trabajo ong Cuenca">trabajo ong Cuenca</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-girona.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_16" class="Categ1" title="trabajo ong Girona">trabajo ong Girona</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-guadalajara.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_17" class="Categ1" title="trabajo ong Guadalajara">trabajo ong Guadalajara</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-huelva.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_18" class="Categ1" title="trabajo ong Huelva">trabajo ong Huelva</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-las-palmas.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_19" class="Categ1" title="trabajo ong Las Palmas">trabajo ong Las Palmas</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-leon.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_20" class="Categ1" title="trabajo ong León">trabajo ong León</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-lleida.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_21" class="Categ1" title="trabajo ong Lleida">trabajo ong Lleida</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-lugo.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_22" class="Categ1" title="trabajo ong Lugo">trabajo ong Lugo</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-madrid.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_23" class="Categ1" title="trabajo ong Madrid">trabajo ong Madrid</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-malaga.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_24" class="Categ1" title="trabajo ong Málaga">trabajo ong Málaga</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-melilla.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_25" class="Categ1" title="trabajo ong Melilla">trabajo ong Melilla</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-murcia.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_26" class="Categ1" title="trabajo ong Murcia">trabajo ong Murcia</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-pontevedra.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_27" class="Categ1" title="trabajo ong Pontevedra">trabajo ong Pontevedra</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-salamanca.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_28" class="Categ1" title="trabajo ong Salamanca">trabajo ong Salamanca</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-sevilla.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_29" class="Categ1" title="trabajo ong Sevilla">trabajo ong Sevilla</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-tarragona.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_30" class="Categ1" title="trabajo ong Tarragona">trabajo ong Tarragona</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-toledo.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_31" class="Categ1" title="trabajo ong Toledo">trabajo ong Toledo</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-valencia.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_32" class="Categ1" title="trabajo ong Valencia">trabajo ong Valencia</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-valladolid.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_33" class="Categ1" title="trabajo ong Valladolid">trabajo ong Valladolid</a> <span style=" color:#515151">|</span>
+            
+                <a href="../../../../trabajo-ong-zaragoza.aspx" id="cphContenido_CajaFolksonomiaRemuSeoProvincia1_rptLista_hlCat_34" class="Categ1" title="trabajo ong Zaragoza">trabajo ong Zaragoza</a> <span style=" color:#515151">|</span>
+            
+    </div>
+</div>
+
+                                <!-- FIN PESTAÑAS VOLUNTARIADO -->
+
+                            </div>
+                            <div class="Box2Foot">
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin provinciAS-->
+                    <!--fin relacionadas-->
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-4">
+            
+
+<div class="">
+
+<p>PUBLICIDAD</p>
+
+
+</div>
+
+
+<div class="visible-xs container-voluntariado-mobile">
+    <div class="row container-wrap">
+        <div class="col-xs-6 visita">Visita hacesfalta.org voluntariado</div>
+        <div class="col-xs-6"><a href="/oportunidades/?sw=v" class="btn btn-primary" role="button">Entrar</a></div>
+    </div>
+</div>
+<div class="destacados-block">
+    <a href="/oportunidades/?sw=v" class="hidden-xs"><img src="/images/visita-hf-voluntariado.png" /></a>
+    <br/>
+    <a href="/donaciones/proyectos/?sw=v" class="hidden-xs"><img src="/images/visita-hf-donaciones.png" /></a>
+</div>
+
+
+
+
+
+
+<form action="/boletin/registro/default.aspx" method="post" class="hidden-xs">
+
+
+<div class="hidden-xs">
+    <h2 class="h2-secondary">Boletín hacesfalta.org</h2>
+
+
+    Trabajo y voluntariado en tu email
+                 
+    <div class="form-group">
+        <input type="text" name="nemail" value="Email" class="form-control">
+    </div>
+    <div class="text-right">
+        <p>
+            <input type="submit" value="Suscríbete" title="Suscríbete" class="btn btn-primary" /></p>
+    </div>
+   
+</div>
+</form>
+
+<hr />
+
+
+        </div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-12 hidden-xs">
+        	
+        </div>
+    </div>
+
+    </div>
+    </div>
+    
+    
+    <script type="text/javascript">
+        // initial data
+        var filtroData = {"Niveles":[],"NivelesSel":"","TiposContrato":[],"TiposContratoSel":"","Duraciones":[],"DuracionesSel":"","Salarios":[],"SalariosSel":"","Profesiones":[],"ProfesionesSel":"","Clave":"","FechaIni":null,"FechaFin":null,"Categoria":"","Pais":"","Provincia":"51/favicon.ico","Descripcion":"Provincia:51/favicon.ico|","OrdenarPor":0};
+        //document
+        $(document).ready(function(){
+            //adjuntamos form superior con lateral
+            $("#bsClave").val($("#hClave").val()).change(function() {
+                $("#hClave").val($("#bsClave").val())
+            });
+            $("#bsCategoria").val($("#hCategoria").val()).change(function() {
+                $("#hCategoria").val($("#bsCategoria").val())
+            });
+            $("#bsPais").val($("#hPais").val()).change(function() {
+                $("#hPais").val($("#bsPais").val())
+            });
+            $("#bsProvincia").val($("#hProvincia").val()).change(function() {
+                $("#hProvincia").val($("#bsProvincia").val())
+            });
+            //datepicker
+            $(".dp").datepicker({
+                format: "dd/mm/yyyy",
+                weekStart: 1,
+                language: "es-ES"//,
+                //                  startView: 2
+            });
+            console.log('value:'+$("#hClave").val());
+        });
+    </script>
+    <script src="/oportunidades/remuneradas/buscador/listado/searchOpCtrl.js"></script>
+
+    
+        
+<!--FOOTER-->
+<div class="container-fluid" id="footer">
+		<div class="row faldon-superior hidden-xs">
+        	<div class="container-wrap">
+                <div class="col-sm-5">
+                    <img src="/images/hf-voluntariado-footer-empleo.png" alt="hacesfalta-org EMPLEO" />
+                </div>
+                <div class="col-sm-6 text-right">
+                    <a href="https://www.hacesfalta.org/Contenido/default.aspx?idPagina=1520">Aviso Legal</a> <span class="separador">|</span> <a href="https://www.hacesfalta.org/Contenido/?idPagina=1471">Política de Privacidad</a> <span class="separador">|</span> <a href="https://www.hacesfalta.org/politica-cookies.ct">Cookies</a> <span class="separador">|</span> <a href="/preguntas-frecuentes.ct" id="cphFooter_footer_hlContacto">Ayuda</a> <span class="separador">|</span> <a href="/noticias/">Blog</a> <span class="separador">|</span> <a href="http://www.topformacion.es/landings/Xpa816-Xst1-Xet250-Xlo0816.png-Xcrhazloposible.jpg" target="_blank">Formación</a>
+                </div>
+                <!--<div class="col-sm-1 text-right">
+                    <input type="button" class="btn btn-primary" onclick="__cmp('showConsentTool')" value="Cookies">
+                </div>-->
+            </div>
+        </div>
+        <div class="row container-wrap footer-mobile">
+            <div class="col-sm-4 col-xs-6">
+            Un proyecto de<br/>
+            <a href="http://hazloposible.org/" target="_blank"><img src="/images/logo-fundacion-hazloposible.png" /></a>
+            <p>
+                <a href="https://www.facebook.com/pages/hacesfaltaorg/162226137149?fref=ts" target="_blank"><img src="/images/ico-facebook-peque.png" alt="Facebook" /></a>
+                <a href="http://twitter.com/hacesfalta"><img src="/images/ico-twitter-peque.png" alt="Twitter" target="_blank" /></a>
+                <a href="https://www.linkedin.com/groups?mostRecent=&gid=4003926&trk=my_groups-tile-flipgrp" target="_blank"><img src="/images/ico-linkedin-peque.png" alt="Linkedin" /></a>
+            </p>
+            </div>
+            <div class="col-sm-4  col-xs-6">
+                <button class="btn btn-ong soy-ong hidden-xs">SOY ONG/EMPRESA</button>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <h3>Webs de la Fundación Hazloposible:</h3>
+                <ul>
+                    <li><a href="http://www.hacesfalta.org" target="_blank">hacesfalta.org</a></li>
+                    <li><a href="http://www.solucionesong.org" target="_blank">solucionesong.org</a></li>
+                    <li><a href="http://www.voluntariadocorporativo.org" target="_blank">voluntariadocorporativo.org</a></li>
+                    <li><a href="http://legal.probonos.net/" target="_blank">probonos.net</a></li>
+                    <li><a href="https://transparenciaong.org/" target="_blank">transparenciaONG.org</a></li>
+                </ul>
+            </div>
+        </div>
+</div><!--cierra footer-->
+
+<div class="" id="ong-slide" style="display:none">
+    
+<!--BLOQUES ONG-->
+            <div class="container-fluid bloques-vol bloques-vol-shadow">
+                <div class="row container-wrap">
+                    <div class="col-sm-4">
+                        <h2 class="h2-secondary">DESTACA TUS OFERTAS</h2>
+                        <div class="clear"></div>
+                        <p><strong>Consigue a l@s mejores candidat@s</strong> con nuestros servicios de ofertas destacadas, emailings personalizados o la creación de un microsite de tu entidad, y encuentra los perfiles que más se ajusten a lo que tus proyectos necesitan.</p>
+                        <hr />
+                        <a href="/servicios.ct" class="btn btn-primary btn-lg btn-block">Servicios para ONG / EMPRESAS</a>
+                        <!--<h2 class="h2-secondary">BLOG</h2>
+                        <a href="/noticias/detalle/?idpost=17777" id="cphFooter_footer_LayerOngNoLogEmpleo_hlPostImg">
+                            <img src="/IO/Blogs/FotosPosts/1777730d836b6-65d2-404c-95e4-d25f05b5f6c7_650X556_s.jpg" id="cphFooter_footer_LayerOngNoLogEmpleo_imgPost" alt="1777730d836b6-65d2-404c-95e4-d25f05b5f6c7.jpg" /></a>
+                        <h3><a href="/noticias/detalle/?idpost=17777" id="cphFooter_footer_LayerOngNoLogEmpleo_hlTitulo">C&#243;mo hacer tu CV si no tienes experiencia profesional</a></h3>
+                        <p>
+                            Preparar un CV es una tarea compleja que requiere un poco de planificaci&oacute;n&nbsp;y dedicaci&oacute;n, especialmente cuando a&uacute;n no cuentas con experiencia profesional o la que tienes n...
+                        </p>
+                        <div class="text-right">
+                            <a href="/noticias/detalle/?idpost=17777" id="cphFooter_footer_LayerOngNoLogEmpleo_hlPostMas" class="btn btn-primary btn-xs">Sigue leyendo</a>
+                        </div>-->
+                    </div>
+                    <div class="col-sm-4">
+                    	<h2 class="h2-secondary">Registra tu ORGANIZACIÓN</h2>
+                        <p>
+                         <strong>¿Necesitas personas para tu Organización?</strong>. Registra tu organización y publica tus ofertas
+							</p>
+                        <table class="table">
+                        	<tr>
+                            	<td><span class="glyphicon glyphicon-chevron-right"></span> Más de <strong>6.000 organizaciones</strong> registradas</td>
+                            </tr>
+                            <tr>
+                            	<td><span class="glyphicon glyphicon-chevron-right"></span> <strong>350.000 personas</strong> que buscan una causa en la que implicarse</td>
+                                
+                            </tr>
+                        </table>
+                        <hr />
+                        <a href="/ong/registro/" class="btn btn-primary btn-lg btn-block">Registra tu ONG / EMPRESA</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="h2-secondary">Oportunidades de Empleo</h2>
+                       
+                         
+						 
+						<ul>
+                        <li><strong>Nº oportunidades activas</strong>: <span class="badge">167</span></li>
+                        <li><strong>Nº de contactos entre personas usuarias y ONG</strong>: <span class="badge"></span></li>
+                    
+                        </ul>
+                        <div class="text-center">
+                        <h1><span class="label label-default">7.207.054</span></h1>
+                        </div>
+						
+                        <hr />
+                        <p>
+                        <a href="/usuarios/login/" class="btn btn-primary btn-lg btn-block">Publica tu oportunidad</a></p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <!--FIN BLOQUES ONG-->
+
+        
+        <script>
+        if($( window ).width() <= 767) {
+			$( "#buscador-collapse" ).addClass( "collapse" );
+		}
+        
+		$( ".soy-ong" ).click(function () {
+		  if ( $( "#ong-slide" ).is( ":hidden" ) ) {
+			$( "#ong-slide" ).slideDown( "slow" );
+            $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+		  } else {
+			$( "#ong-slide" ).slideUp();
+		  }
+		});
+		
+		//$("body").click(function () {
+			//$( "#ong-slide" ).hide();
+		//});
+		</script>
+        </div>
+
+        
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-800570-1');
+    ga('send', 'pageview');
+    
+</script>
+
+
+    
+</body>
+<script>
+	$(document).ready(function() {
+		//$(window).load(function() {
+
+	"use strict";	
+
+   $('#status').delay(100).fadeOut('slow');
+   $('#preloader').delay(500).fadeOut('slow');
+   $('body').delay(500).css({'overflow':'visible'});
+   });
+   
+</script>
+</html>
